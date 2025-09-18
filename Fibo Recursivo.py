@@ -8,7 +8,8 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 # Ejemplo: primeros 10 términos
-n = 40
+n = 10
 serie = [fibonacci(i) for i in range(n)]
 print(f"Serie de Fibonacci con {n} términos (recursiva):")
 print(serie)
+
